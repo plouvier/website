@@ -1,0 +1,106 @@
+
+body
+{
+
+	background-color:rgb(155,12,230);
+	margin:auto;
+	padding:0px;
+	display: grid;
+	width:1500px;
+	border: 3px solid #26CC;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:"entete entete"
+						"principal lateral"
+						"principal lateral"
+						"pied pied";
+}
+
+/*
+div
+{
+	width:90%;
+	background-color:red;
+	border: 3px solid #26A;
+	margin:auto;
+	height: 500px;
+}*/
+
+nav
+{
+	width: fit-content;
+	margin:auto;
+}
+
+.menu-bar 
+{
+	
+	height: fit-content;
+	display: inline-flex;
+	background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);	
+	align-items: center;
+	/*position: fixed;*/
+	top:20px;
+	border-radius: 25px;
+	margin:auto;
+	border: 3px solid #26CC;
+	width: fit-content;
+	
+
+}
+
+
+
+li 
+{
+	list-style: none;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 12px 16px;
+	margin: 0 8px
+	position: relative;
+	width:100%;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align:center;
+	&::before {
+		content: " ";
+		position: fixed;
+		height:100%;
+		width: 100%;
+		z-index:-1;
+		transition: .2s;
+		border-radius: 25px;
+	}
+}
+
+.imag
+{
+	margin: auto;
+	width:fit-content;
+}
+
+.box
+{
+	border:1px solid #221fb3;
+	background-color: #386ccc;
+	color: #FFF;
+	font-weight: bolder;
+	padding:10px;
+}
+
+
+
+
+
+
+
+
+header{grid-area:entete;}
+section{grid-area:principal;}
+aside{grid-area:lateral;}
+footer{grid-area:pied;}
+	
