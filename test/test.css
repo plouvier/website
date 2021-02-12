@@ -4,9 +4,8 @@ body
 
 	background-color:rgb(155,12,230);
 	margin:auto;
-	padding:0px;
 	display: grid;
-	width:1500px;
+	width:100%;
 	border: 3px solid #26CC;
 	grid-template-rows: auto auto auto auto;
 	grid-template-columns: 1fr ;
@@ -16,15 +15,7 @@ body
 						"pied";
 }
 
-/*
-div
-{
-	width:90%;
-	background-color:red;
-	border: 3px solid #26A;
-	margin:auto;
-	height: 500px;
-}*/
+
 
 nav
 {
@@ -65,7 +56,6 @@ li
 	width:100%;
 	cursor: pointer;
 	white-space: nowrap;
-	text-align:center;
 	&::before {
 		content: " ";
 		position: fixed;
@@ -77,19 +67,33 @@ li
 	}
 }
 
+a
+{
+	color:white;
+	text-decoration: none;
+}
+
+
+ul
+{
+	border: 2px solid rgb(155,12,230);
+}
+
+
 .imag
 {
 	margin: auto;
 	width:fit-content;
+	height:fit-content;
 }
 
 .box
 {
-	border:1px solid #221fb3;
-	background-color: #386ccc;
+	/*border:1px solid #221fb3;*/
+	/*background-color: #386ccc;*/
 	color: #FFF;
-	font-weight: bolder;
-	padding:10px;
+	font-weight: bolder
+	padding:10px;*/
 }
 
 .side
@@ -105,46 +109,65 @@ p
 	text-align: justify;
 }
 
+
+.end
+{
+	background-color:#000;
+	
+}
+
 .container
 {
 	display:flex;
-	height: 700px;
-	width: 1200px;
+	height: fit-content;
+	width: fit-content;
 	margin:auto;
 	flex-direction:row;
-	justify-content: space-between;
 	align-items:stretch;
 }
 
 .cont-item
 {
 	flex:1;
-	background-color:rgb(241,131,131);
-	border:1px solid #000;
+	/*background-color:#000;*/
+	border:1px solid rgb(241,131,131);
 	
+	
+}
+
+#side_
+{
+	border: 2px solid #000;
+	margin:10px;
 }
 
 #elem1
 {
 	margin:auto;
 	border: 2px solid #33FFBC;
-	height:300px;
+	height:400px;
 	padding:5px;
+	display:flex;
+	align-items: center;
+	justify-content:center;
 }
 
 #elem2
 {
 	margin:auto;
 	border: 2px solid #33FFBC;
-	height:300px;
+	height:400px;
 	padding:5px;
+	display:flex;
+	align-items: center;
+	justify-content:center;
 }
 
 #elem3
 {
 	margin:auto;
 	border: 2px solid #33FFBC;
-	height:300px;
+	height:fit-content;
 	padding:5px;
 }
 
