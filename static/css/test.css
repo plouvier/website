@@ -1,0 +1,186 @@
+
+body
+{
+
+	background-color:rgb(155,12,230);
+	margin:auto;
+	display: grid;
+	width:100%;
+	border: 3px solid #26CC;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: 1fr ;
+	grid-template-areas:"entete"
+						"principal"
+						"lateral"
+						"pied";
+}
+
+#logo
+{
+	position: fixed;
+	right: 5px;
+	top:20px;
+}
+
+nav
+{
+	width: fit-content;
+	margin:auto;
+}
+
+.menu-bar 
+{
+	
+	height: fit-content;
+	display: inline-flex;
+	background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);	
+	align-items: center;
+	position:fixed;
+	z-index:1;
+	top:40px;
+	right: 130px;
+	border-radius: 25px;
+	margin:auto;
+	border: 3px solid #26CC;
+	width: fit-content;
+	
+
+}
+
+
+
+li 
+{
+	list-style: none;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 12px 16px;
+	margin: 0 8px;
+	position: relative;
+	width:100%;
+	cursor: pointer;
+	white-space: nowrap;
+	&::before {
+		content: " ";
+		position: fixed;
+		height:100%;
+		width: 100%;
+		z-index:-1;
+		transition: .2s;
+		border-radius: 25px;
+	}
+}
+
+a
+{
+	color:white;
+	text-decoration: none;
+}
+
+
+ul
+{
+	border: 2px solid rgb(155,12,230);
+}
+
+
+.imag
+{
+	margin: auto;
+	width:fit-content;
+	height:fit-content;
+}
+
+.box
+{
+	/*border:1px solid #221fb3;*/
+	/*background-color: #386ccc;*/
+	color: #FFF;
+	font-weight: bolder;
+	padding:10px;
+}
+
+.side
+{
+	display:grid;
+	align-items:center;
+}
+
+p
+{
+	font-size:20px;
+	font-family:Calibri;
+	text-align: justify;
+}
+
+
+.end
+{
+	background-color:#000;
+	
+}
+
+.container
+{
+	display:flex;
+	height: fit-content;
+	width: fit-content;
+	margin:auto;
+	flex-direction:row;
+	align-items:stretch;
+}
+
+.cont-item
+{
+	flex:1;
+	/*background-color:#000;*/
+	border:1px solid rgb(241,131,131);
+	
+	
+}
+
+#side_
+{
+	border: 2px solid #000;
+	margin:10px;
+}
+
+#elem1
+{
+	margin:auto;
+	border: 2px solid #33FFBC;
+	height:400px;
+	padding:5px;
+	display:flex;
+	align-items: center;
+	justify-content:center;
+}
+
+#elem2
+{
+	margin:auto;
+	border: 2px solid #33FFBC;
+	height:400px;
+	padding:5px;
+	display:flex;
+	align-items: center;
+	justify-content:center;
+}
+
+#elem3
+{
+	margin:auto;
+	border: 2px solid #33FFBC;
+	height:fit-content;
+	padding:5px;
+}
+
+
+header{grid-area:entete;}
+section{grid-area:principal;}
+aside{grid-area:lateral;}
+footer{grid-area:pied;}
+	
