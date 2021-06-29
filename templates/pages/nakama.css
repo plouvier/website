@@ -1,0 +1,167 @@
+
+body {
+	margin: auto;
+	width: 100%;
+	background-image: url("../../static/images_videos/purple.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	border: 3px solid #303030;
+}
+
+
+#logo {
+	position: fixed;
+	right: 5px;
+	top: 20px;
+}
+
+nav {
+	width: fit-content;
+	align-text: center;
+	color: #303030;
+}
+
+.menu-bar {
+	height: fit-content;
+	display: inline-flex;
+	background-color: rgba(, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	align-items: center;
+	position: center;
+	z-index: 1;
+	top: 50px;
+	border-radius: 25px;
+	margin: auto;
+	color: #303030;
+	border: 3px solid #303030;
+	width: fit-content;
+}
+
+
+
+li {
+	list-style: none;
+	color: #303030;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 12px 16px;
+	margin: 0 8px;
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+	white-space: nowrap;
+	&::before
+
+{
+	content: " ";
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	transition: .2s;
+	border-radius: 25px;
+}
+
+}
+
+
+
+ul {
+	border: 2px solid rgb(155,12,230);
+	margin: 0px;
+	color: #303030;
+}
+
+.desc {
+	padding: 5px;
+	text-align: center;
+	border: 1px solid green;
+}
+
+p {
+	font-size: 20px;
+	font-family: Calibri;
+	color: #FFF;
+	line-height: 5px;
+}
+
+
+
+
+
+.end {
+	background-image: url("../../static/images_videos/footer4.jpg");
+	background-attachment: fixed;
+}
+
+
+.mycontainer {
+	display: flex;
+	height: fit-content;
+	width: fit-content;
+	margin: auto;
+	flex-direction: row;
+	align-items: stretch;
+	color: #303030;
+}
+
+.cont-item {
+	flex: 1;
+	/*background-color:#000;*/
+	border: 1px solid rgb(241,131,131);
+	height: fit-contents;
+}
+
+/*
+#side_ {
+	border: 2px solid #000;
+	margin: 10px;
+	padding: 10px;
+}
+*/
+
+
+header {
+	align-content: center;
+}
+
+
+
+a.foot {
+	color: #FFF;
+	text-decoration: inherit;
+}
+
+a.menu {
+	color: #303030;
+	text-decoration: inherit;
+}
+
+
+.container-fluid {
+	margin-top: 60px;
+	background-color: #303030;
+	height: fit-contents;
+	border: 2px solid blue;
+	position: center;
+	width: 100%;
+	align-items: stretch;
+}
+
+.col {
+	/*text-align: center;*/
+	border: 2px solid #663399;
+	height: fit-contents;
+	margin-top: 30px;
+}
+
+
+.imag {
+	padding: 5px;
+	/*width: fit-content;
+	height: fit-content;*/
+	text-align: center;
+	border: solid 2px red;
+	position: center;
+}
