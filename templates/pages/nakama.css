@@ -138,6 +138,11 @@ a.menu {
 	text-decoration: inherit;
 }
 
+h1 {
+	text-align: center;
+	color: #FFF;
+	font-family: 'Comic Sans MS';
+}
 
 .container-fluid {
 	margin-top: 60px;
