@@ -1,0 +1,227 @@
+﻿body {
+    margin: auto;
+    width: 100%;
+    background-image: url("../../static/images_videos/purple.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    border: 3px solid #303030;
+}
+
+
+#logo {
+    position: fixed;
+    right: 5px;
+    top: 20px;
+}
+
+nav {
+    width: fit-content;
+    align-text: center;
+    color: #303030;
+}
+
+.menu-bar {
+    height: fit-content;
+    display: inline-flex;
+    background-color: rgba(, 0, 0, .4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    position: center;
+    z-index: 1;
+    top: 50px;
+    border-radius: 25px;
+    margin: auto;
+    color: #303030;
+    border: 3px solid #303030;
+    width: fit-content;
+}
+
+
+
+li {
+    list-style: none;
+    color: #303030;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 12px 16px;
+    margin: 0 8px;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    white-space: nowrap;
+    &::before
+
+{
+    content: " ";
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: .2s;
+    border-radius: 25px;
+}
+
+}
+
+
+
+ul {
+    /*border: 2px solid rgb(155,12,230);*/
+    margin: 0px;
+    color: #303030;
+}
+
+
+
+header {
+    align-content: center;
+}
+
+
+.end {
+    background-image: url("../../static/images_videos/footer4.jpg");
+    background-attachment: fixed;
+}
+
+
+.mycontainer {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    flex-direction: row;
+    align-items: stretch;
+    color: #303030;
+}
+
+
+
+
+
+.foot {
+    color: #FFF;
+    text-decoration: inherit;
+}
+
+a.menu {
+    color: #303030;
+    text-decoration: inherit;
+}
+
+h2 {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Bahnschrift';
+}
+
+h3 {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Cambria';
+    margin-bottom: 10px;
+}
+
+p {
+    overflow: auto;
+}
+
+.expertise, .strategie, .service {
+    background-image: url("../../static/images_videos/purple10.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.strat {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.container-fluid {
+    margin-top: 60px;
+    background-color: #303030;
+    height: fit-contents;
+    /*border: 2px solid blue;*/
+    position: center;
+    width: 100%;
+    align-items: stretch;
+}
+
+.col {
+    /*border: 2px solid #663399;*/
+    height: fit-contents;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+
+.big, .science, .business, .truc, .centre-serv, .forfait, .support {
+    height: 600px;
+    color: #FFF;
+    text-align: center;
+    overflow-y:auto;
+}
+
+.big {
+    background-image: url("../../static/images_videos/big2_.png");
+    background-size: cover;
+
+}
+
+.truc {
+    background-image: url("../../static/images_videos/data_science2.jpg");
+    background-size: cover;
+}
+
+.science {
+    background-image: url("../../static/images_videos/data_science1.jpg");
+    background-size: cover;
+}
+
+.business {
+    background-image: url("../../static/images_videos/business3.jpg");
+    background-size: cover;
+}
+
+.text_expert {
+    background-image: url("../../static/images_videos/black_background.jpg");
+    background-size: cover;
+    /*border : solid 2px #ff0000;*/
+}
+
+
+.support {
+    background-image: url("../../static/images_videos/support.jpg");
+    background-size: cover;
+}
+
+.forfait {
+    background-image: url("../../static/images_videos/background4.png");
+    background-size: cover;
+}
+
+
+.centre-serv {
+    background-image: url("../../static/images_videos/background5.jpeg");
+    background-size: cover;
+}
+
+
+
+
+.serv, .exp, .strat {
+    height: 500px;
+    color: #FFF;
+    text-align: center;
+    /*border: 2px solid green;*/
+    width: 1000px;
+    background-image: url("../../static/images_videos/black2.jpg");
+    background-size: cover;
+}
+
+
+
+
