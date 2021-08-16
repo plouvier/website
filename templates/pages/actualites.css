@@ -2,10 +2,8 @@
 body {
     margin: auto;
     width: 100%;
-    background-image: url("../../static/images_videos/purple.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    border: 3px solid #303030;
+    /*border: 3px solid #303030;*/
+    background-color: #303030;
 }
 
 
@@ -95,6 +93,9 @@ ul {
 
 header {
     align-content: center;
+    background-image: url("../../static/images_videos/purple.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -111,9 +112,9 @@ a.menu {
 
 .container-fluid {
     margin-top: 60px;
-    background-color: #303030;
+/*    background-color: #303030;*/
     height: fit-contents;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     position: center;
     width: 100%;
     align-items: center;
@@ -131,6 +132,10 @@ a.menu {
     place-items: center;
     margin-bottom: 15px;
     text-align: center;
+}
+
+.colhead {
+    margin-top: 0px;
 }
 
 .desc {
