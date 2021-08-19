@@ -5,12 +5,15 @@
     background-color: #303030;
 }
 
-
-#logo {
-    position: fixed;
-    right: 5px;
-    top: 20px;
+.mycol {
+    /*border: 2px solid #663399;*/
+    height: fit-contents;
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
 }
+
 
 nav {
     width: fit-content;
@@ -82,7 +85,6 @@ ul {
 
 .box {
     /*border:1px solid #221fb3;*/
-    /*background-color: #386ccc;*/
     color: #FFF;
     font-weight: bolder;
     padding: 10px;
@@ -114,7 +116,6 @@ p.cita {
 
 .end {
     background-image: url("../../static/images_videos/footer4.jpg");
-
     background-attachment: fixed;
 }
 
@@ -129,13 +130,7 @@ p.cita {
     color: #303030;
 }
 
-.cont-item {
-    flex: 1;
-    /*background-color:#000;*/
-    /*border: 1px solid rgb(241,131,131);*/
-    height: fit-contents;
 
-}
 
 #side_ {
     /*border: 2px solid #000;*/
@@ -175,17 +170,22 @@ a.menu {
     align-items: stretch;
 }
 
-.col {
-    /*border: 2px solid #663399;*/
-    height: fit-contents;
+
+
+.cont-item {
     margin-top: 30px;
     display: grid;
     place-items: center;
+    margin-bottom: 15px;
+    height: fit-contents;
     text-align: center;
+    /*border: 2px solid #663399;*/
 }
 
-
-.coltext {
+.colhead {
+    /*border: 2px solid #663399;*/
+    height: fit-contents;
     display: grid;
     place-items: center;
+    text-align: center;
 }

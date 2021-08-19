@@ -8,10 +8,12 @@
 }
 
 
-#logo {
-    position: fixed;
-    right: 5px;
-    top: 20px;
+.colhead {
+    /*border: 2px solid #663399;*/
+    height: fit-contents;
+    display: grid;
+    place-items: center;
+    text-align: center;
 }
 
 nav {
@@ -128,13 +130,7 @@ h3 {
 p {
     overflow: auto;
 }
-/*
-.expertise, .strategie, .service {
-    background-image: url("../../static/images_videos/purple10.jpg");
-    background-size: cover;
-    background-attachment: fixed;
 
-}*/
 
 .strat {
     text-align: center;
@@ -143,8 +139,6 @@ p {
 }
 
 .container-fluid {
-    /*margin-top: 60px;*/
-    /*background-color: #303030;*/
     height: fit-contents;
     /*border: 2px solid blue;*/
     position: center;
@@ -152,7 +146,7 @@ p {
     align-items: stretch;
 }
 
-.col {
+.mycol {
     /*border: 2px solid #663399;*/
     height: fit-contents;
     display: grid;
@@ -174,10 +168,6 @@ p {
 
 }
 
-.truc {
-    background-image: url("../../static/images_videos/data_science2.jpg");
-    background-size: cover;
-}
 
 .science {
     background-image: url("../../static/images_videos/data_science1.jpg");
@@ -215,7 +205,7 @@ p {
 
 
 
-.serv, .exp, .strat {
+.exp, .strat {
     height: 500px;
     color: #FFF;
     text-align: center;
@@ -227,4 +217,12 @@ p {
 
 
 
-
+.cont-item {
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: fit-contents;
+    text-align: center;
+    /*border: 2px solid #663399;*/
+}

@@ -6,12 +6,28 @@
 }
 
 
-
-#logo {
-    position: fixed;
-    right: 5px;
-    top: 20px;
+header {
+    align-content: center;
+    background-image: url("../../static/images_videos/purple.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+a.menu {
+    color: #303030;
+    text-decoration: inherit;
+}
+
+
+
+.colhead {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    /*border: 2px solid #663399;*/
+    height: fit-contents;
+}
+
 
 nav {
     width: fit-content;
@@ -28,7 +44,6 @@ nav {
     align-items: center;
     position: center;
     z-index: 1;
-    top: 50px;
     border-radius: 25px;
     margin: auto;
     color: #303030;
@@ -71,14 +86,8 @@ ul {
     color: #303030;
 }
 
-a.foot {
+.inp {
     color: #FFF;
-    text-decoration: inherit;
-}
-
-a.menu {
-    color: #303030;
-    text-decoration: inherit;
 }
 
 p {
@@ -86,29 +95,6 @@ p {
     font-family: Calibri;
     color: #FFF;
     line-height: 20px;
-}
-
-
-header {
-    align-content: center;
-    background-image: url("../../static/images_videos/purple.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.colhead {
-    display: grid;
-    place-items: center;
-}
-
-
-.end {
-    background-image: url("../../static/images_videos/footer4.jpg");
-    background-attachment: fixed;
-}
-
-.inp {
-    color: #FFF;
 }
 
 .mycontainer {
@@ -121,10 +107,7 @@ header {
     color: #303030;
 }
 
-/*.cont-item {
-    display: grid;
-    place-items: center;
-}*/
+
 
 
 .container-fluid {
@@ -137,30 +120,52 @@ header {
     align-items: stretch;
 }
 
-.col {
+.mycol {
     text-align: center;
     /*border: 2px solid #663399;*/
     height: fit-contents;
     padding: 20px;
-
+    background-color: #131111;
 }
+
+
 
 .thetop {
     margin-top: 25px;
 }
 
-.middle {
-    background-color: #131111;
-}
 
 .thebottom {
     margin-bottom: 25px;
 }
+
+
+a.foot {
+    color: #FFF;
+    text-decoration: inherit;
+}
+
+
+.end {
+    background-image: url("../../static/images_videos/footer4.jpg");
+    background-attachment: fixed;
+}
+
 
 .coltext{
     display: grid;
     place-items: center;
 }
 
+
+.cont-item {
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: fit-contents;
+    text-align: center;
+    /*border: 2px solid #663399;*/
+}
 
 
